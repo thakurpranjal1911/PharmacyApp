@@ -1,0 +1,80 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Test</title>
+    <link rel="stylesheet" href="labTest.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="image">
+
+        </div>
+        <form>
+            <div id="contactDetails" class="common">
+                <h3>1. Your Contact Details</h3>
+                <input type="text" placeholder="Full Name">
+                <input type="text" placeholder="Patient Id if exists"> <br />
+                <input type="tel" placeholder="Contact Number">
+                <input type="email" placeholder="Email id">
+            </div>
+            <div id="address" class="common">
+                <h3>2. Address</h3>
+                <input type="text" placeholder="H-No">
+                <input type="text" placeholder="Street"> <br />
+                <input type="number" placeholder="Area"> <br />
+                <label for="choose">District</label> <br />
+                <select name="district" id="choose">
+                    <option value="choose">Choose</option>
+                    <option value="Sample">District 1</option>
+                    <option value="Sample">District 2</option>
+                    <option value="Sample">District 3</option>
+                </select>
+            </div>
+            <div id="testType" class="common">
+                <h3>3. Choose the Test Type</h3>
+
+                <span>Check atleast one box without fail</span> <br />
+
+                <input type="checkbox" id="cbc" value="cbc">
+                <label for="cbc">CBC</label> <br />
+
+                <input type="checkbox" id="urine" value="urine">
+                <label for="urine">Complete Urine</label> <br />
+
+                <input type="checkbox" id="lipid" value="lipid">
+                <label for="lipid">Lipid Profile</label> <br />
+
+                <input type="checkbox" id="tsh" value="tsh">
+                <label for="tsh">Thyroid Stimulating Hormone(TSH)</label> <br />
+
+                <input type="checkbox" id="gt" value="gt">
+                <label for="gt">Glucose Test</label> <br />
+
+            </div>
+            <div id="copy" class="common">
+                <h3>4. Do you want hard copy of the report also?</h3>
+
+                <input type="radio" id="y">
+                <label for="y">Yes</label>
+
+                <input type="radio" id="n">
+                <label for="n">No</label>
+
+            </div>
+            <div id="dT" class="common">
+                <h3>Select your comfortable Date and Time</h3>
+                <input type="datetime-local">
+            </div>
+        </form>
+
+    </div>
+    <div id="btn">
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </div>
+</body>
+
+</html>

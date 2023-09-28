@@ -1,0 +1,82 @@
+.container {
+    width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    height: 500px;
+    overflow-y: scroll;
+    background-image: url("../Images/Lab-Test/lab-test.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 800px;
+    background-size: 450px 550px;
+    box-shadow: 5px 5px 10px 10px rgb(172, 171, 171);
+}
+
+form {
+    padding: 20px;
+}
+
+form input {
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+form h3 {
+    margin-bottom: 5px;
+}
+
+.common {
+    margin-top: 20px;
+}
+
+#contactDetails input {
+    padding: 16px;
+}
+
+#address input {
+    padding: 16px;
+}
+
+#address label {
+    font-size: medium;
+    font-weight: bold;
+    line-height: 3em;
+}
+
+#address select {
+    width: 195px;
+    padding: 5px;
+}
+
+#testType input {
+    margin-top: 10px;
+}
+
+#testType label {
+    font-size: large;
+}
+
+#testType span {
+    color: rgb(167, 10, 10);
+    padding: 5px;
+}
+
+#dt input {
+    padding: 16px;
+}
+
+#btn {
+    position: relative;
+    left: 32%;
+    top: 20px;
+}
+
+#btn button {
+    height: 30px;
+    width: 100px;
+    margin: 10px;
+    background-color: rgb(145, 73, 212);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
