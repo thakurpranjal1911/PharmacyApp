@@ -73,10 +73,11 @@ form h3 {
 
 #btn button {
     height: 30px;
-    width: 100px;
+    width: 90px;
     margin: 10px;
     background-color: rgb(145, 73, 212);
     color: white;
     border-radius: 10px;
     border: none;
+    font-size: 16px;
 }
